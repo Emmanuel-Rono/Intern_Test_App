@@ -35,7 +35,8 @@ class MainActivity : AppCompatActivity() {
         }
         dataViewModel.get_The_Posts()
     }
-    //The function to be invoked -As we navigate to the DetailsScreen
+
+        //The function to be invoked -As we navigate to the DetailsScreen
     private fun gotoDetailsScreen(post: Post) {
         val intent = Intent(this, Detail_Screen::class.java)
         intent.putExtra(posts, post)
