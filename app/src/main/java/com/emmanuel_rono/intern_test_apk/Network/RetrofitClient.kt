@@ -1,4 +1,4 @@
-package com.emmanuel_rono.intern_test_apkgit
+package com.emmanuel_rono.intern_test_apk
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 object ApiClient {
@@ -12,6 +12,7 @@ object ApiClient {
     }
     //using Lazy to ensure that is called once
     val postApiService: ApiService by lazy {
+
         retrofit.create(ApiService::class.java)
     }
 }
