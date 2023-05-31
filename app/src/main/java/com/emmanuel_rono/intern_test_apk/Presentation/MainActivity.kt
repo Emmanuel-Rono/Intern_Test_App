@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
     }
 
         //The function to be invoked -As we navigate to the DetailsScreen
-    private fun gotoDetailsScreen(post: Post) {
+    private fun gotoDetailsScreen(kpost: Post) {
         val intent = Intent(this, Detail_Screen::class.java)
         intent.putExtra(posts, post)
         startActivity(intent)

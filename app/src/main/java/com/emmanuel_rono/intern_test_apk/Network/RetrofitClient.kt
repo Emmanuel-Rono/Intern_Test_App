@@ -11,8 +11,7 @@ object ApiClient {
             .build()
     }
     //using Lazy to ensure that is called once
-    val postApiService: ApiService by lazy {
-
+     val postApiService: ApiService by lazy {
         retrofit.create(ApiService::class.java)
     }
 }
