@@ -18,7 +18,6 @@ class PostsAdapter(var posts: List<Post>, private val onItemClick: (Post) -> Uni
         val post = posts[position]
         holder.bind(post)
     }
-
     override fun getItemCount(): Int = posts.size
 
     inner class PostViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {

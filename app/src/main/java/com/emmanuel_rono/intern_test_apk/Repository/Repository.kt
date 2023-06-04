@@ -8,5 +8,5 @@ class PostRepository {
             // Handle network error
             emptyList()
         }
-    }
-}
+    }}
+

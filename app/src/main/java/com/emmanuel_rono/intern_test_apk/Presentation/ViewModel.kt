@@ -1,9 +1,11 @@
-package com.emmanuel_rono.intern_test_apk
+package com.emmanuel_rono.intern_test_apk.Presentation
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.emmanuel_rono.intern_test_apk.Post
+import com.emmanuel_rono.intern_test_apk.PostRepository
 import kotlinx.coroutines.launch
 
 
